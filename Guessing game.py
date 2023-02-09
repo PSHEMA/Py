@@ -8,4 +8,4 @@ while guess_count<guess_limit:
         print("You won!")
         break
 else:
-    print("Sorry, you failed")
+    print("Sorry, you failed!")
