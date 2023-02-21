@@ -1,5 +1,10 @@
 import math
 
+# Prompt the user to input a, b, and c
+a = float(input("Enter a: "))
+b = float(input("Enter b: "))
+c = float(input("Enter c: "))
+
 def solve(a, b, c):
     # Compute the discriminant
     disc = b**2 - 4*a*c
@@ -15,10 +20,6 @@ def solve(a, b, c):
 
     # Return the solutions as a tuple
     return (x1, x2)
-
-a = 1
-b = 3
-c = 2
 
 # Call the solve() function and print the result
 result = solve(a, b, c)
